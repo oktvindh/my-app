@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 30%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.card p {
+  color: grey;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.card hr {
+  margin-top: 10px;
+  background: grey;
+}
+
+.input-checkbox {
+  padding: 15px;
+  display: flex;
+  border-bottom: 1px solid rgb(212, 211, 211);
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.input-checkbox p {
+  font-size: 15px;
+  color: black;
+  margin-left: 10px;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: rgb(12, 161, 247);
+  border: none;
+  color: white;
+}
+
+button:active {
+  background-color: red;
+}
+
+.card img {
+  width: 100%;
+}
